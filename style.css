@@ -21,27 +21,15 @@ body{
     background-color: #f2f2f26c;
     padding: 50px 0;
 }
-
-.product-card {
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    overflow: hidden;
-    margin-bottom: 20px;
-}
-
-.product-card img {
-    max-width: 100%;
+#about img{
+    width: 100%;
     height: auto;
-}
-
-.product-card h3 {
-    text-align: center;
-    padding: 15px 0;
-    margin: 0;
+    max-width: 100%;
 }
 
 /* Product Section */
 #products {
+    background-color: #f2f2f26c;
     padding: 50px 0;
 }
 
@@ -61,6 +49,14 @@ body{
     text-align: center;
     padding: 15px 0;
     margin: 0;
+}
+
+/* sosmed and contact Section */
+#contact{
+    background-color: #f2f2f26c;
+}
+.contact img{
+    height: 100px;
 }
 
 
