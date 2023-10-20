@@ -1,7 +1,10 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: 'Inter', sans-serif;
     font-family: 'Poppins', sans-serif;
-    background-color: white;
+    background-color: #f2f2f26c;
 }
 .navbar-brand{
     font-weight: 700;
@@ -10,15 +13,9 @@ body{
 .nav-link.active{
     font-weight: 700;
 }
-.button-primary{
-    width: 133px;
-    height: 40px;
-    background-color: #414c69;
-    border: none;
-}
+
 /* About Section */
 #about {
-    background-color: #f2f2f26c;
     padding: 50px 0;
 }
 #about img{
@@ -29,7 +26,6 @@ body{
 
 /* Product Section */
 #products {
-    background-color: #f2f2f26c;
     padding: 50px 0;
 }
 
@@ -51,12 +47,22 @@ body{
     margin: 0;
 }
 
-/* sosmed and contact Section */
-#contact{
-    background-color: #f2f2f26c;
+.custom-btn {
+    background-color: #165F60;
+    color: #fff; /* Text color */
+    border: none; /* Remove the button border */
 }
-.contact img{
-    height: 100px;
+
+/* sosmed and contact Section */
+#sosmed{
+    background-color: #165F60;
+    padding: 50px 0;
+    color: #fff;
+    margin-top: 10px;
+}
+.icon-sosmed{
+    color: white;
+    margin-bottom: 2px;
 }
 
 
