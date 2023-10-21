@@ -53,6 +53,23 @@ body{
     border: none; /* Remove the button border */
 }
 
+/* Connect Section */
+@media (max-width: 767px){
+    .connect-img{
+        display: none;
+    }
+}
+.connect-img {
+    align-items: center;
+    justify-content: center;
+}
+.custom-img {
+    width: 100%;
+    max-height: 500px;
+    margin-right: 0;
+}
+
+
 /* sosmed and contact Section */
 #sosmed{
     background-color: #165F60;
@@ -60,9 +77,10 @@ body{
     color: #fff;
     margin-top: 10px;
 }
-.icon-sosmed{
+.sosmed-icon a{
     color: white;
-    margin-bottom: 2px;
+    margin-bottom: 4px;
+    text-decoration: none;
 }
 
 
