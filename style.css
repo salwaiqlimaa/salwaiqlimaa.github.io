@@ -1,16 +1,18 @@
-html{
+html {
     scroll-behavior: smooth;
 }
-body{
+
+body {
     font-family: 'Inter', sans-serif;
     font-family: 'Poppins', sans-serif;
     background-color: #f2f2f26c;
 }
-.navbar-brand{
+
+.navbar-brand {
     font-weight: 700;
 }
 
-.nav-link.active{
+.nav-link.active {
     font-weight: 700;
 }
 
@@ -18,7 +20,8 @@ body{
 #about {
     padding: 50px 0;
 }
-#about img{
+
+#about img {
     width: 100%;
     height: auto;
     max-width: 100%;
@@ -49,38 +52,60 @@ body{
 
 .custom-btn {
     background-color: #165F60;
-    color: #fff; /* Text color */
-    border: none; /* Remove the button border */
+    color: #fff;
+    /* Text color */
+    border: none;
+    /* Remove the button border */
 }
 
 /* Connect Section */
-@media (max-width: 767px){
-    .connect-img{
+@media (max-width: 767px) {
+    .connect-img {
         display: none;
     }
 }
+
 .connect-img {
     align-items: center;
     justify-content: center;
 }
+
 .custom-img {
     width: 100%;
     max-height: 500px;
     margin-right: 0;
 }
 
-
-/* sosmed and contact Section */
-#sosmed{
+#footer {
     background-color: #165F60;
     padding: 50px 0;
-    color: #fff;
     margin-top: 10px;
-}
-.sosmed-icon a{
     color: white;
-    margin-bottom: 4px;
+}
+
+/* sosmed and contact Section */
+.sosmed a{
+    color: white;
+    margin-bottom: 7px;
     text-decoration: none;
 }
 
+/* Support */
+.support a {
+    margin-bottom: 4px;
+    color: white;
+    text-decoration: none;
+}
 
+/* Extras */
+.extras a {
+    margin-bottom: 4px;
+    color: white;
+    text-decoration: none;
+}
+
+/* Subscribe btn */
+.subscribe a{
+    margin-bottom: 4px;
+    color: white;
+}

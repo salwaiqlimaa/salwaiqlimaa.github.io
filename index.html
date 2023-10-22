@@ -20,16 +20,7 @@
 <link rel="icon" href="logo_woodka.png" type="image/png">
 
 <title>Woodka</title>
-<script>
-    function fill() {
-        var email = document.getElementById("email");
-        if (email.value == "") { //isiannya lupa ngga diisi{
-            alert("Email harus diisi");
-            email.focus();
-            return false;
-        }
-    }
-</script>
+
 </head>
 
 <body>
@@ -48,17 +39,13 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <div class="d-lg-flex align-items-center">
-                        <a class="nav-link active mx-2" href="#">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link mx-2" href="#">Home</a>
                         <a class="nav-link mx-2" href="#about">About</a>
                         <a class="nav-link mx-2" href="#products">Products</a>
-                        <a class="nav-link mx-2" href="#sosmed">Contact Us</a>
+                        <a class="nav-link mx-2" href="#footer">Contact Us</a>
+                        <a class="nav-link mx-2" href="#myaccount">My Account</a>
                     </div>
                 </div>
-            </div>
-            <div>
-                <a href="#myaccount">
-                    <button class="btn custom-btn text-light" href="#myaccount">My Account</button>
-                </a>
             </div>
         </div>
     </nav>
@@ -133,7 +120,6 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 text-center mb-4">
-                        <p></p>
                         <h2>Our Products</h2>
                     </div>
                     <div id="productCarousel" class="carousel slide" data-ride="carousel">
@@ -233,11 +219,11 @@
                             </div>
                             <div class="form-floating mb-2">
                                 <label for="floatingInput">Do You Have Any Question?</label>
-                                <input type="question" class="form-control" id="floatingInput">
+                                <input type="question" class="form-control" id="floatingInput" rows="3">
                             </div>
                             <p></p>
                             <div>
-                                <input type="submit" value="Sign Up" class="btn custom-btn">
+                                <input type="submit" value="Sign Up" href="#" class="btn custom-btn text-white">
                             </div>
                         </form>
                     </div>
@@ -250,13 +236,14 @@
     </section>
 
     <!-- Footer Section -->
-    <section id="sosmed">
+    <section id="footer">
         <div class="container mt-2">
             <div class="row">
-                <div class="col-md-6">
+                <!-- Sosmed -->
+                <div class="col-md-3">
                     <h4>Contact Us</h4>
-                    <p>Follow Our Social Media for More Information!</p>
-                    <div class="sosmed-icon">
+                    <h6>Follow Our Social Media</h6>
+                    <div class="sosmed">
                         <div>
                             <a href="https://www.instagram.com/woodka_/">
                                 <img src="ig-icon.png" alt="instagram" class="img-fluid"> @woodka_
@@ -276,12 +263,59 @@
                         <div>
                             <img src="email-icon.png" alt="email" class="img-fluid"> woodkawatch@gmail.com
                         </div>
+                        <p></p>
                     </div>
+                </div>
+                <!-- Support -->
+                <div class="col-md-3">
+                    <div class="support">
+                        <h4>Support</h4>
+                        <a href="https://woodka.fun/pages/return-policy-and-guarantee">Return Policy and Guarantee</a>
+                        <p></p>
+                        <a href="https://woodka.fun/pages/terms-and-conditions-of-use">Terms & Condition</a>
+                        <p></p>
+                        <p>
+                            <a href="https://woodka.fun/pages/f-a-qs">FAQs</a>
+                        </p>
+                    </div>
+                </div>
+                <!-- Extras -->
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="extras">
+                                <h4>Extras</h4>
+                                <a href="https://woodka.fun/pages/about-us">About Us</a>
+                                <p></p>
+                                <a href="#">Careers</a>
+                                <p></p>
+                                <p>
+                                    <a href="https://woodka.fun/pages/contact-us">Contact</a>
+                                </p>
+                            </div>
+                        </div>
+                        <!-- Subscribe -->
+                        <div class="col-md-9">
+                            <div class="subscribe">
+                                <form class="footer-email">
+                                    <h4>Enjoy Woodka exclusive offers</h4>
+                                    <h6>Stay up to date with our updates and offers</h6>
+                                    <input class="email" type="email" placeholder="  Email address">
+                                    <p></p>
+                                    <button class="btn btn-danger" type="button">Subscribe</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>                
+            </div>
+            <div class="row mt-5">
+                <div class="col copyright text-center">
+                    <small class="text-white-50">Copyright © 2023, Woodka Watch</small>
                 </div>
             </div>
     </section>
-
-
+    <script src="script.js"></script>
 </body>
 
 </html>
